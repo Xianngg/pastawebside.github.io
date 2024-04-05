@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================================================================
+   Framework/Wireframe styles
+   <span>
+========================================================================== */
+
+
+
+
+/* ==========================================================================
+   Typography styles
+   ========================================================================== */
+
+header{
+    margin: auto;
+}
+/* ==========================================================================
+   navigation size and color
+   ========================================================================== */
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0vh;
+    width: 100%;
+    height: 11vh;
+    z-index: 99;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.nav a {
+    font-size: 2em;
+    float: none;
+    margin: auto;
+    text-decoration: none;
+    opacity:1;
+    filter: alpha(opacity=1);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+   
+}
+
+.nav a:first-child{
+    color: #e18b6b;
+}
+.nav a:first-child:hover{
+    color: #e18b6b;
+}
+.nav a:nth-child(2):hover{
+    color: #ece5b6;
+}
+.nav a:nth-child(3):hover{
+    color: #c2dfff;
+}
+.nav a:nth-child(4):hover{
+    color: #c8a2c8;
+}
+.nav a:first-child:active{
+    color: #ffffff;
+}
+.nav a:nth-child(2):active{
+    color: #ffffff;
+}
+.nav a:nth-child(3):active{
+     color: #ffffff;
+}
+.nav a:nth-child(4):active{
+     color: #ffffff;
+}
+/* ==========================================================================
+   header background picture
+   ========================================================================== */
+.home img{
+    width: 100%;
+    height: auto;
+}
+.h6{
+    line-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    font-size: 4em;
+    font-family: snell roundhand;
+    overflow: hidden;
+    color: #545454;
+}
+.dashed{
+   border-top:2px dashed #98afc7; 
+    margin-top:1.4em ;
+}
+/* ==========================================================================
+   Main position and color
+   ========================================================================== */
+main{
+    margin: auto;
+    position: relative;
+}
+.main{
+    top:-20vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top:0em;
+    height: auto;
+    max-width: 100%;
+    background-color: aqua;
+    background-color: rgba(124,251,253,0.9);
+    position: relative; 
+    padding-bottom: 5vh;
+}
+/* ==========================================================================
+   text font size,text illustrated size
+   ========================================================================== */
+.text{
+    overflow: hidden;
+    font-size: 1.6em;
+  
+}
+.introduce img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:30%;
+    max-width: 30vh;
+    padding: 0em 1em 0.2em 0em;
+    float: left;
+    overflow: hidden;
+}
+.introducetext{
+    padding: 0em 0.8em 0.8em 0.8em;
+}
+/* ==========================================================================
+   Main margin bottom distance,Main food image size and padding
+   ========================================================================== */
+.col1{
+    margin-bottom: 2em;
+}
+.col1 img{
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+    object-fit: cover;
+}
+.col1 img:hover{
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+    object-fit: cover;
+    opacity: 0.7;
+    filter: Alpha(opacity=70)
+}
+.food{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50vh,1fr));
+    grid-template-rows:  repeat(2,auto)  
+}
+.col1 a{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0em 0.5em 1em 0.5em;
+    font-size: 1.5em;
+    overflow: hidden;
+    font-family: monospace;
+    color: black;
+    text-decoration: none;
+}
+/* ==========================================================================
+   footer background image size and position
+   ========================================================================== */
+footer{
+    background-color: #3b3131;
+    width: auto;
+    overflow: hidden;
+    margin-top: -20vh;
+    position:relative;
+    z-index: 99;
+    
+}
+.tfgl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.detail{
+ display: flex;
+    height: auto;
+    margin: auto;
+
+}
+.detail img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.col2{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em;
+    color: white;
+}
+.detail img:nth-child(2){
+    position: relative;
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0em 1em 1em 1em;
+    overflow: hidden;
+}
+h5{
+    position: relative;
+    margin: auto;
+    color: #6495ed;
+    padding: 1em 1em 1em 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.col2 a{
+    line-height: 2em;
+    position: relative;
+    overflow: hidden;
+    color: #6495ed;
+    text-decoration: none;
+    padding: 1em;
+    
+}
+/* ==========================================================================
+   legal disclaim text size color
+   ========================================================================== */
+.copyright{
+    position: relative;
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    height: 2.5em;
+    padding: 0em 0.3em 0.3em 0.3em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==========================================================================
+   Social link, size, and color
+   ========================================================================== */
+.tfgl a{
+     text-decoration: none;
+}
+h3{
+    color: white;
+    margin-left: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+.twitter{
+    display: flex;
+    width: 17vh;
+    background:#00ABEE;
+	background-image:linear-gradient(to bottom, #0296CC 40%, #00ABEE 70%);
+	background-image:-o-linear-gradient(to bottom, #0296CC 40%, #00ABEE 70%);
+	background-image:-moz-linear-gradient(bottom, #0296CC 40%, #00ABEE 70%);
+	background-image:-webkit-linear-gradient(bottom, #0296CC 40%, #00ABEE 70%);
+	background-image:-ms-linear-gradient(bottom, #0296CC 40%, #00ABEE 70%);
+	box-shadow:0em 0.0625em 0.125em #999;
+	-webkit-box-shadow:0em 0.0625em 0.125em #999;
+	-moz-box-shadow:0em 0.0625em 0.125em #999;
+	border-bottom:0.0625em solid #007AA9;
+}
+.twitter img{
+    	width:1.875em; 
+	    margin:0.1875em 0.1875em 0.1875em 0.3125em;
+}
+.twitter:hover{
+	background-image:linear-gradient(to bottom, #079FD6 40%, #05B9FA 70%);
+	background-image:-o-linear-gradient(bottom, #079FD6 40%, #05B9FA 70%);
+	background-image:-moz-linear-gradient(bottom, #079FD6 40%, #05B9FA 70%);
+	background-image:-webkit-linear-gradient(bottom, #079FD6 40%, #05B9FA 70%);
+	background-image:-ms-linear-gradient(bottom, #079FD6 40%, #05B9FA 70%);
+}
+.twitter:active{
+    	background-image:linear-gradient(to bottom, #0296CC 40%, #05ABE8 70%);
+	background-image:-o-linear-gradient(bottom, #0296CC 40%, #05ABE8 70%);
+	background-image:-moz-linear-gradient(bottom, #0296CC 40%, #05ABE8 70%);
+	background-image:-webkit-linear-gradient(bottom, #0296CC 40%, #05ABE8 70%);
+	background-image:-ms-linear-gradient(bottom, #0296CC 40%, #05ABE8 70%);
+}
+.facebook{
+    display: flex;
+    width: 17vh;
+    background:#4266AD;
+	background-image:linear-gradient(to bottom, #3B5898 40%, #4266AD 70%);
+	background-image:-o-linear-gradient(bottom, #3B5898 40%, #4266AD 70%);
+	background-image:-moz-linear-gradient(bottom, #3B5898 40%, #4266AD 70%);
+	background-image:-webkit-linear-gradient(bottom, #3B5898 40%, #4266AD 70%);
+	background-image:-ms-linear-gradient(bottom, #3B5898 40%, #4266AD 70%);
+	box-shadow:0em 0.0625em 0.125em #999;
+	-webkit-box-shadow:0em 0.0625em 0.125em #999;
+	-moz-box-shadow:0em 0.0625em 0.125em #999;
+	border-bottom:0.0625em solid #2A4475;
+}
+.facebook:hover{
+    background-image:linear-gradient(to bottom, #4363A3 40%, #5079C7 70%);
+	background-image:-o-linear-gradient(bottom, #4363A3 40%, #5079C7 70%);
+	background-image:-moz-linear-gradient(bottom, #4363A3 40%, #5079C7 70%);
+	background-image:-webkit-linear-gradient(bottom, #4363A3 40%, #5079C7 70%);
+	background-image:-ms-linear-gradient(bottom, #4363A3 40%, #5079C7 70%);
+}
+.facebook:active{
+    background-image:linear-gradient(to bottom, #3B588F 40%, #4C71B5 70%);
+	background-image:-o-linear-gradient(bottom, #3B588F 40%, #4C71B5 70%);
+	background-image:-moz-linear-gradient(bottom, #3B588F 40%, #4C71B5 70%);
+	background-image:-webkit-linear-gradient(bottom, #3B588F 40%, #4C71B5 70%);
+	background-image:-ms-linear-gradient(bottom, #3B588F 40%, #4C71B5 70%);
+}
+.facebook img{
+    	width:1.875em; 
+	    margin:0.1875em 0.1875em 0.1875em 0.4375em;
+}
+
+.google{
+    display: flex;
+    width: 17vh;
+    background:#BA2D25;
+	background-image:linear-gradient(to bottom, #AD2E29 28%, #CC2A25 64%);
+	background-image:-o-linear-gradient(bottom, #AD2E29 28%, #CC2A25 64%);
+	background-image:-moz-linear-gradient(bottom, #AD2E29 28%, #CC2A25 64%);
+	background-image:-webkit-linear-gradient(bottom, #AD2E29 28%, #CC2A25 64%);
+	background-image:-ms-linear-gradient(bottom, #AD2E29 28%, #CC2A25 64%);
+	box-shadow:0em 0.0625em 0.125em #999;
+	-webkit-box-shadow:0em 0.0625em 0.125em #999;
+	-moz-box-shadow:0em 0.0625em 0.125em #999;
+	border-bottom:0.0625em solid #6C140F;
+}
+.google:hover{
+    background-image:linear-gradient(to bottom, #BD332C 28%, #E0362D 64%);
+	background-image:-o-linear-gradient(bottom, #BD332C 28%, #E0362D 64%);
+	background-image:-moz-linear-gradient(bottom, #BD332C 28%, #E0362D 64%);
+	background-image:-webkit-linear-gradient(bottom, #BD332C 28%, #E0362D 64%);
+	background-image:-ms-linear-gradient(bottom, #BD332C 28%, #E0362D 64%);
+}
+.google:active{
+    background-image:linear-gradient(to bottom, #992420 28%, #C22C29 64%);
+	background-image:-o-linear-gradient(bottom, #992420 28%, #C22C29 64%);
+	background-image:-moz-linear-gradient(bottom, #992420 28%, #C22C29 64%);
+	background-image:-webkit-linear-gradient(bottom, #992420 28%, #C22C29 64%);
+	background-image:-ms-linear-gradient(bottom, #992420 28%, #C22C29 64%);
+}
+.google img{
+    	width:1.875em; 
+	    margin:0.1875em 0.1875em 0.1875em 0.4375em;
+}
+
+
+
+.in{
+    display: flex;
+    width: 17vh;
+    background:#1D7CB3;
+	background-image:linear-gradient(to bottom, #10689E 40%, #1D7CB3 70%);
+	background-image:-o-linear-gradient(bottom, #10689E 40%, #1D7CB3 70%);
+	background-image:-moz-linear-gradient(bottom, #10689E 40%, #1D7CB3 70%);
+	background-image:-webkit-linear-gradient(bottom, #10689E 40%, #1D7CB3 70%);
+	background-image:-ms-linear-gradient(bottom, #10689E 40%, #1D7CB3 70%);
+	box-shadow:0em 0.0625em 0.125em #999;
+	-webkit-box-shadow:0em 0.0625em 0.125em #999;
+	-moz-box-shadow:0em 0.0625em 0.125em #999;
+	border-bottom:0.0625em solid #09527D;
+
+}
+.in:hover{
+    background-image:linear-gradient(to bottom, #1A6FA1 40%, #278CC2 70%);
+	background-image:-o-linear-gradient(bottom, #1A6FA1 40%, #278CC2 70%);
+	background-image:-moz-linear-gradient(bottom, #1A6FA1 40%, #278CC2 70%);
+	background-image:-webkit-linear-gradient(bottom, #1A6FA1 40%, #278CC2 70%);
+	background-image:-ms-linear-gradient(bottom, #1A6FA1 40%, #278CC2 70%);
+}
+.in:active{
+    background-image:linear-gradient(to bottom, #1C6894 40%, #2481B3 70%);
+	background-image:-o-linear-gradient(bottom, #1C6894 40%, #2481B3 70%);
+	background-image:-moz-linear-gradient(bottom, #1C6894 40%, #2481B3 70%);
+	background-image:-webkit-linear-gradient(bottom, #1C6894 40%, #2481B3 70%);
+	background-image:-ms-linear-gradient(bottom, #1C6894 40%, #2481B3 70%);
+}
+.in img{
+    	width:1.875em; 
+	    margin:0.1875em 0.1875em 0.1875em 0.4375em;
+}
